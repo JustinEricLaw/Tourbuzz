@@ -1,0 +1,29 @@
+/* ******************************************
+Buttons
+****************************************** */
+a.email-button,
+a.fb-button,
+a.twitter-button,
+a.flyer-button {
+  padding: .75em 1em;
+  color: white;
+  border-radius: 7px;
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+  text-decoration: none;
+  font-size: .9em;
+}
+
+.email-button {
+  background-color: #ec7c3d;
+}
+.fb-button {
+  background-color: #015b7e;
+}
+.twitter-button {
+  background-color: #0077a2;
+}
+.flyer-button {
+  background-color: $primary-color;
+}

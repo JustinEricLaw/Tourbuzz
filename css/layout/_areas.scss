@@ -1,0 +1,97 @@
+/* ******************************************
+LAYOUT
+****************************************** */
+
+// Base Layout Grid
+.prop-wrap,
+.prop-detail-wrap,
+.flyer-wrap,
+.agent-wrap,
+.footer-wrap {
+  padding: 1em;
+}
+
+
+// Carousel
+.slideshow-wrap {
+  height: 20em;
+  width: 100%;
+  background-color: #999;
+}
+
+
+// Main Property Info
+.prop-wrap {
+  background-color: white;
+}
+.prop-header-wrap {
+  padding: 0 0 .5em;
+}
+.prop-infograph-wrap {
+  padding: .5em 0 0;
+}
+.infograph-size,
+.infograph-rooms,
+.infograph-bath,
+.infograph-price {
+  padding: .5em 1em;
+}
+.infographs {
+  padding: .75em .5em;
+  float: left;
+  width: 50%;
+}
+.infographs span,
+.infographs div {
+  display: inline-block;
+}
+.infographs span {
+  padding-right: .25em;
+}
+.info-price {
+  padding-top: .75em;
+}
+
+
+// Secondary Property Info
+.prop-detail-wrap {
+  background-color: #ddd;
+}
+.walk-score-wrap {
+  padding: 1em 0;
+}
+.prop-detail-header {
+  padding-bottom: .25em;
+}
+
+// Flyer
+
+
+// Meet the Agent
+.agent-wrap {
+  background-color: #ddd;
+  ul {
+    list-style-type: none;
+  }
+}
+.agent-img {
+  width: 12em;
+  padding: .5em 0;
+}
+.agent-title {
+  padding-bottom: 1em;
+}
+.agent-secondary-wrap {
+  padding: 1em 0;
+}
+.agent-logo {
+  width: 10em;
+  padding-bottom: .5em;
+}
+
+// Footer
+.footer-wrap {
+  background-color: $primary-color;
+  text-align: right;
+}
+

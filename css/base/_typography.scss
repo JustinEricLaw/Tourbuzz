@@ -1,0 +1,109 @@
+/* ******************************************
+	Typography
+****************************************** */ 
+
+// Base Typography
+html {
+  font-size: 100%;
+  line-height: 1.4;
+  text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: $font-stack-main;
+  color: $primary-text;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-stack-main;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+p, li {
+  font-size: .9em;
+}
+
+
+// Header Text
+.address-header {
+  font-size: 1.25em;
+  font-weight: normal;
+}
+.address-secondary {
+  font-size: 1em;
+  font-weight: normal;
+}
+.infograph-numbers {
+  font-size: 1.3em;
+  font-weight: normal;
+}
+.infograph-info {
+  font-size: .7em;
+}
+.info-price {
+  font-size: 1.4em;
+}
+
+
+// Secondary Info Text 
+.walk-score {
+  font-weight: normal;
+  font-size: 1.1em;
+  margin-bottom: -5px;
+}
+.walk-score-detail {
+  font-size: .75em;
+  a:link,
+  a:visited {
+    color: $primary-text;
+  }
+}
+.flyer-header,
+.agent-header {
+  text-align: center;
+}
+.agent-header {
+  padding-bottom: .75em;
+}
+.agent-name {
+  font-weight: normal;
+  font-size: 1em;
+}
+.agent-title {
+  font-weight: normal;
+  font-size: 0.9em;
+}
+.agent-info {
+  font-size: 0.8em;
+}
+.agent-secondary-wrap {
+  font-size: .8em;
+  a:link,
+  a:visited {
+    color: $primary-text;
+  }
+}
+.agent-contact-header {
+  font-weight: bold;
+}
+
+
+// Footer Text
+.footer-wrap {
+  font-size: .7em;
+  color: #efefef;
+}
+.footer-text {
+  padding: .75em 0 .5em;
+}
+
+// Text Selection
+::-moz-selection {
+  background: $secondary-color;
+  color: #fff;
+}
+::selection {
+  background: $secondary-color;
+  color: #fff;
+}
+
