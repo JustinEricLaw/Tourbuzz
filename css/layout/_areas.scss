@@ -9,16 +9,20 @@ LAYOUT
 .agent-wrap,
 .footer-wrap {
   padding: 1em;
+  @include bp(md) {
+    padding: 1em 2.5em;
+  }
+  @include bp(lg) {
+    padding: 1em 4.5em;
+  }
+  @include bp(xlg) {
+    padding: 1em 15em;
+  }
 }
-
 
 // Carousel
 .slideshow-wrap {
-  height: 20em;
-  width: 100%;
-  background-color: #999;
 }
-
 
 // Main Property Info
 .prop-wrap {
@@ -40,6 +44,9 @@ LAYOUT
   padding: .75em .5em;
   float: left;
   width: 50%;
+  @include bp(lg) {
+    width: 25%;
+  }
 }
 .infographs span,
 .infographs div {
@@ -52,7 +59,6 @@ LAYOUT
   padding-top: .75em;
 }
 
-
 // Secondary Property Info
 .prop-detail-wrap {
   background-color: #ddd;
@@ -62,6 +68,20 @@ LAYOUT
 }
 .prop-detail-header {
   padding-bottom: .25em;
+}
+.prop-detail-main {
+  @include bp(md) {
+    float: left; 
+    width: 70%;
+    padding-right: 1em;
+  }
+}
+.prop-detail-buttons {
+  @include bp(md) {
+    float: left;  
+    width: 30%;
+    margin-top: 1em;
+  }
 }
 
 // Flyer
@@ -77,6 +97,18 @@ LAYOUT
 .agent-img {
   width: 12em;
   padding: .5em 0;
+  @include bp(md) {
+    float: right;
+    width: 30%;
+    padding: 0;
+    margin: 0 .5em;
+  }
+}
+.agent-info-wrap {
+  @include bp(md) {
+    width: 70%;
+    padding-right: 2em;
+  }
 }
 .agent-title {
   padding-bottom: 1em;

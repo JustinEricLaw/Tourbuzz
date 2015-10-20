@@ -1,0 +1,37 @@
+/* ******************************************
+Carousel
+****************************************** */
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  font-size: 2em;
+  color: #fff;
+  padding: 0;
+  background: none;
+  margin: 0;
+  opacity: .6;
+  transition: all .15s;
+  @include bp(md) {
+    font-size: 2.25em;
+  }
+  &:hover,
+  &:active {
+    opacity: .8;
+    transition: all .15s;
+  }
+}
+.owl-prev,
+.owl-next {
+  position: absolute;
+  bottom: 45%;
+  @include bp(md) {
+    bottom: 50%;
+  }
+}
+.owl-prev {
+  left: 5%;
+}
+.owl-next {
+  right: 5%;
+}
+
+

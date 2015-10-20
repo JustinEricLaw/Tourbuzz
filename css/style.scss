@@ -12,5 +12,8 @@
 
 
 // Module
+@import "module/animations.scss";
 @import "module/buttons.scss";
-@import "module/animations";
+@import "module/carousel.scss";
+@import "module/_owl.carousel.scss";
+@import "module/_owl.theme.default.scss";
