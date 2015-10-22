@@ -19,7 +19,7 @@ $(document).ready(function() {
       1200: {
         items: 1,
         nav: true,
-        stagePadding: 250
+        stagePadding: 270
       }
     }
   });

@@ -13,7 +13,6 @@ html {
   font-family: $font-stack-main;
   color: $primary-text;
 }
-
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-stack-main;
   font-weight: bold;
@@ -21,6 +20,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 p, li {
   font-size: .9em;
+}
+.main-wrap {
+  font-size: 100%;
+  @include bp(xlg) {
+    font-size: 110%;
+  }
 }
 
 

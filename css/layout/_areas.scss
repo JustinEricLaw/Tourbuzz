@@ -40,13 +40,17 @@ LAYOUT
 .infograph-price {
   padding: .5em 1em;
 }
-.infographs {
+.infographs-container {
+  margin: 0 auto;
   padding: .75em .5em;
   float: left;
   width: 50%;
   @include bp(lg) {
     width: 25%;
   }
+}
+.infographs {
+  margin: 0 auto;
 }
 .infographs span,
 .infographs div {
